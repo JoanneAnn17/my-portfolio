@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #0f172a;
+    font-family:"Poppins";
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-left: 1rem;
+    font-size: 18px;
+   
+}
+nav{
+    /* background-color: rgb(168, 214, 77); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem; */
+    
+}
+.rect{
+    padding: 8px 15px ;
+    border: none;
+    border-radius: 25px;
+    margin-left: 2rem;
+    /* background-color: white; */
+            
+    
+}
+.rect:hover{
+    color: aqua;
+}
+ #logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+ }
+.cards{
+    margin-left: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+}
+.card1,.card2,.card3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 35px;
+    background-color: plum;
+    height: 70vh;
+    width: 31%;
+    margin-top: 2rem;
+    box-shadow: 20px 20px 20px pink;
+}
+img{
+    margin: 1rem;
+    width: 80%;
+    height: 30vh;
+    margin-left: 2.3rem;
+    object-fit: cover;
+    
+}
+h3,i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    color: black;
+    font-weight: bolder;
+}
+i{
+    font-size: 20px;
+    color: red;
+}
+h3{
+    color: green;
+    font-size: 25px;
+}
+button{
+    width: 28%;
+    margin-left: 9rem;
+    border: 1px solid black;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: deeppink;
+}
+.text{
+    background-color: darkseagreen;
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+}
+ /* .css,.js,.html{
+    background-color: blue;
+    width: 31%;
+    height: 80%;
+    padding: 1.4rem;
+    box-shadow: 10px 20px 20px white;
+    
+    cursor: pointer;
+    /* transform: translateY(-5); */
+/* } */ 
+.card1{animation: cd 2s infinite }
+
+ @keyframes cd{
+    0%,100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+} 
+.card2{animation: cf 4s infinite }
+
+ @keyframes cf{
+    0%,100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+} 
+.card3{animation: cm 4s infinite }
+
+ @keyframes cm{
+    0%,100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+} 

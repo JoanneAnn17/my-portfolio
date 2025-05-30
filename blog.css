@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #0f172a;
+    font-family:"Poppins";
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-left: 1rem;
+    font-size: 18px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.rect{
+    padding: 8px 15px ;
+    border: none;
+    border-radius: 25px;
+    margin-left: 2rem;
+    /* background-color: white; */
+            
+    
+}
+.rect:hover{
+    color: aqua;
+}
+ #logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+ }
+ .card17{
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    padding: 3rem;
+    justify-content: space-between;
+   
+   
+ }
+ .css,.js,.html{
+    background-color: blue;
+    width: 31%;
+    height: 80%;
+    padding: 1.4rem;
+    box-shadow: 10px 20px 20px white;
+    
+    cursor: pointer;
+    /* transform: translateY(-5); */
+}
+.css{animation: cd 2s infinite }
+
+ @keyframes cd{
+    0%,100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+} 
+.js{animation: cf 4s infinite }
+
+ @keyframes cf{
+    0%,100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+} 
+.html{animation: cm 4s infinite }
+
+ @keyframes cm{
+    0%,100%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+} 
+footer{
+    display: flex;
+    justify-content: center;
+}
